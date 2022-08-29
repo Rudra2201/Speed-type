@@ -108,7 +108,7 @@ function resetGame()
     mistakeTag.innerText = mistakes;
     inpField.value="";
     clearInterval(timer); 
-}
+}//hello
 randomParagraph(); 
 inpField.addEventListener("input",initTyping)
 tryAgainBtn.addEventListener("click",resetGame);
