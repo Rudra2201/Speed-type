@@ -88,7 +88,7 @@ function initTimer()
         }
         else
         {
-            timeTag.style.color="black;
+            timeTag.style.color="black";
         }
         
     }
