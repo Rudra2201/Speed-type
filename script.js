@@ -82,6 +82,11 @@ function initTimer()
     {
         timeleft--;
         timeTag.innerText = timeleft;
+        if(timeleft<10)
+        {
+            timeTag.style.color="red";
+        }
+        
     }
     else{
         clearInterval(timer);
