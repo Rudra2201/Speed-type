@@ -86,6 +86,10 @@ function initTimer()
         {
             timeTag.style.color="red";
         }
+        else
+        {
+            timeTag.style.color="black;
+        }
         
     }
     else{
